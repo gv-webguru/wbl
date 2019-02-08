@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/* CSS Document for Custome styles in Forbes Women  */
+/*By default, this style sheet addresses x-small widths -- mobile devices in portrait mode -- Larger divice widths are addressed with media queries*/
+/*If there's a rule for it in this top section, you might find a rule change in one or more media querries below.*/
+/*
+//Colors -
+//EMI Orange: cmyk (0,62,100), rgb(245,127,32), #f57f20
+//EMI Grey: cmyk (53,55,60,26), rgb(108,94,85), #6c5e55
+//EMI Blue: cmyk (72,18,0,0), rgb(0,166,232), #00a6e8
+*/
+.header{
+	/*width: 100%;*/
+}
+
+.top-bar{
+    background-color:#000;
+}
+
+.tag{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family: 'Arial Black','Arial',sans-serif;
+    color:#fff;
+    font-size:1em;
+    font-style: italic;
+    text-align: center;
+}
+
+.show{
+    color:#e3cc3a;
+}
+
+.bar-wrap p{
+    margin: 0;
+}
+
+.col-12.banner, .banner img{
+    width: 100%;
+    
+}
+
+.masthead-wrapper{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+
+
+.masthead-wrapper img{
+	width:100%;
+}
+
+
+
+.cont-wrapper{
+	max-width:1200px;
+	margin: 0 auto;
+    padding:15px
+}
+
+.copy-cont{
+	width:100%;
+    padding:0 10px 0 0;
+}
+
+.orange{
+    color:rgb(245,127,32);
+}
+
+.ewg{
+    color:rgb(108,94,85);
+}
+
+.bold-caps{
+    font-weight:900;
+    font-size: 11pt;
+}
+
+.all-caps{
+    text-transform: uppercase;
+}
+
+.ty-heading{
+    font-size: 11pt;
+}
+
+.copy-graph{
+    color:rgb(108,94,85);
+    line-height:1.75em;
+    font-size: 1em;
+}
+
+#emi-logo{
+    margin-top:40px;
+}
+
+
+.form-cont{
+	width:100%;
+}
+
+.form-cont img{
+		width:100%;
+	}
+
+.col-form-label{
+    text-align: left;
+}
+.col-form-label.univ{
+    margin-top:-13px;
+    padding-bottom: 0;
+}
+
+#hidden-buyer{
+    width:80%;
+    margin-left:10%;
+    display: none;
+}
+
+.vis-mob{
+    display:block;
+}
+.vis-desk{
+    display:none;
+}
+
+.black-bar{
+	color:#fff;
+	margin:0 auto;
+    background-color:rgb(0,0,0);
+    font-size:.75em;
+    padding:20px 0 1px;
+}
+.copy-contact a{
+    color:#dfdfdf;
+}
+
+.sep{
+    width:75%;
+    margin:25px auto;
+    border-bottom:2px solid rgba(108,94,85,.5);
+    border-top: 2px solid rgba(245,127,32,.50);
+    border-radius:2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+
+.submit-btn{
+    background-color: rgb(245,127,32);
+    border-color: rgb(213,95,0);
+    border-width: 2px;
+    margin: 15px auto 25px;
+    border-style: outset;
+    width: 80% !important;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+    letter-spacing: 1px;
+}
+
+
+.hide-break{
+    display: none;
+}
+
+.med-kit-btn{
+	width:50%;
+	margin: 0 auto;
+}
+
+.med-kit-btn img{
+    width:100%;
+}
+
+.qs{
+	font-weight:900;
+	margin-bottom: 16px;
+	font-size: 1.2rem;
+}
+
+#if-yes{
+    display: none;
+	
+}
+
+#if-yes, #how-rate, #who-else{
+	margin-top:15px;
+	
+}
+
+#include-dude{
+    background-color:#f57f20;
+    color:#fff;
+    border-color: rgb(213,95,0);
+    border-width: 2px;
+    margin: 15px auto 25px;
+    border-style: outset;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+    letter-spacing: 1px;
+}
+
+#this-guy{
+    display: none;
+}
+
+.form-check-inline .form-check-input{
+	margin-top:-.55rem;
+}
+
+/*Small screen widths - starting @ 576px -- smaller screens are addressed above. Typically phones in landscape mode.*/
+@media only screen and (min-width: 576px){
+    
+}
+
+/*Medium screen widths - starting @ 768px - typically tablets in portrait mode.*/
+@media only screen and (min-width: 768px){
+    
+    
+    .col-form-label{
+        text-align: right;
+    }
+    
+	.med-kit-btn{
+		width:75%;
+		margin: 0 auto;
+	}
+	
+    .med-kit-btn img{
+        width:100%;
+    }
+}
+
+/*Large screen widths - starting @9 92px - typically tablets in portrait mode.*/
+@media only screen and (min-width: 992px){
+	/*This is where I want the copy and form columns to sit side-by-side -- They stay stacked until this point.*/
+    .tag{
+    
+        font-size:1.8em;
+    }
+    
+    .bold-caps{
+        font-size:28pt;
+    }
+    .ty-heading{
+        font-size: 22pt;
+    }
+    
+    .copy-cont, .form-cont{
+		display: inline-block;
+	}
+	.copy-cont{
+		width:33%;
+		vertical-align: top;
+        
+	}
+    .copy-cont{
+        line-height:1.5em;
+        font-size: 1.45em;
+        /*border-right:1px solid #000;*/
+    }
+	
+	.med-kit-btn{
+		margin-top: 25px;
+		margin-bottom:25px;
+	}
+	.form-cont{
+		width:66%;
+		padding-left:90px;
+	}
+    
+	.form-cont img{
+		width:75%;
+	}
+	
+    .ty-btn-copy{
+        margin:0 0 0 50px;
+        text-align: left;
+        font-size: 1em;
+        font-weight:900;
+        color:rgb(108,94,85);
+        width:55%;
+    }
+    
+    #addContact-btn{
+        padding:25px;
+        background-color:rgb(245,127,32);
+        border-color: rgb(187,63,0);
+        border-width:3.5px;
+        border-style: solid;
+        font-size: 2.7em;
+        color:#fff;
+        font-weight: 900;
+        border-radius:15px;
+        text-shadow: 0 0 15px rgb(187,63,0);
+        text-decoration: none;
+        width:50%;
+        margin:15px auto;
+        text-align: center;
+        line-height: .95em;
+    }
+    .hide-break{
+        display: block;
+    }
+    .vis-mob{
+        display:none;
+    }
+    .vis-desk{
+        display:block;
+    }
+    
+    .med-kits{
+        border-left:1px solid #000;
+    }
+    
+    .med-kit-link{
+        width:450px;
+        text-align: right;
+        margin-left:50px;
+        margin-bottom:24px;
+    }
+    
+    .med-kit-link img{
+        width:100%;
+    }
+}
+
+/*Xtra - large screen widths - starting @ 1200px - typically desktop computers.*/
+@media only screen and (min-width:1200px){
+    
+	.tag{
+    font-size:2em;
+    }
+}
+
+/*Special Banner Styles*/
+
+
+img.lgdt{
+    display:none;
+}
+img.mddt{
+    display:none;
+}
+img.smdt{
+    display:none;
+}
+
+img.mob{
+    display:block;
+}
+@media only screen and (min-width:1200px){
+    img.lgdt{
+        display:none;
+    }
+    img.mddt{
+        display:none;
+    }
+    img.smdt{
+        display:block;
+    }
+
+    img.mob{
+        display:none;
+    }
+    
+}
+
+@media only screen and (min-width:1480px){
+    img.lgdt{
+        display:none;
+    }
+    img.mddt{
+        display:block;
+    }
+    img.smdt{
+        display:none;
+    }
+
+    img.mob{
+        display:none;
+    }
+    
+}
+
+@media only screen and (min-width:1740px){
+    img.lgdt{
+        display:block;
+    }
+    img.mddt{
+        display:none;
+    }
+    img.smdt{
+        display:none;
+    }
+
+    img.mob{
+        display:none;
+    }
+    
+}

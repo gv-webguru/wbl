@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Subscriptions</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</head>
+<body style="font-family:Tahoma;">
+<form action="" id="unsub-form" method="post" name="unsubscribeme">
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody>
+					<tr bgcolor="#333333">
+						<td>
+						<table cellpadding="0">
+							<tbody>
+								<tr>
+                                  <td style="padding:15px;"><font color="#9c9c9c" face="Tahoma" size="2">Need help? Feel free to <a href="mailto:forbeswomen@eminetwork.com" target="_blank"><font color="white" size="2">contact us</font></a> at any time. </font></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr bgcolor="#FF7100" height="5px" style="height:5px;background-color:#FF7100;">
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+						<table align="left" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td colspan="2">&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="2" height="5px">&nbsp;</td>
+								</tr>
+								<tr bgcolor="#f0f0f0">
+									<td colspan="2" style="padding:15px;"><font face="Tahoma" size="3">Subscriptions</font></td>
+								</tr>
+								<tr>
+									<td colspan="2" style="padding:15px;font-size:13px;color:#333333;"><font color="#f7941d" face="Tahoma"><b>Dear ##firstname##,</b></font><br />
+									<br />
+									If you&#39;d like to unsubscribe, mark the checkbox below and click the &quot;Update Subscription&quot; button.
+									<table cellpadding="2" cellspacing="0" style="font-size:13px;" width="100%">
+										<tbody>
+											<tr>
+												<td bgcolor="#fff" rowspan="10" style="width:20px;">&nbsp;</td>
+												<td rowspan="10" style="width:10px;">&nbsp;</td>
+												<td width="25"><br />
+												<input id="chkForbesWomen" name="chkForbesWomen" style="cursor:pointer;" type="checkbox" /></td>
+												<td><br />
+												Forbes "Women Business Leader" Program<br />
+												<span id="u-sure" style="font-size:.8em; display: none; color:red;"><em>Are you sure you want to leave this page without unsubscribing?</em></span></td>
+											</tr>
+										</tbody>
+									</table>
+									&nbsp;
+
+									<table cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td><input id="unsubme" style="padding:5px 10px;" type="submit" value="Update Subscription" /></td>
+												<td style="font-size:13px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td bgcolor="#f0f0f0" colspan="2" style="padding:15px;">
+									<table width="100%">
+										<tbody>
+											<tr>
+												<td><font face="Tahoma" size="2">We welcome your ideas on how we can better serve you.<br />
+												<font color="#666666">Please reach us at <a href="mailto:forbeswomen@eminetwork.com">forbeswomen@eminetwork.com</a></font> </font></td>
+												<td align="right">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="padding:15px;">
+									<table width="100%">
+										<tbody>
+											<tr>
+												<td><font color="#666666" face="Tahoma" size="2">EMI Network, a Division of Graphic Village<br />
+												<font color="#999999">9933 Alliance Road, Cincinnati, OH 45242</font> </font></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<input id="Do_Not_Email" name="Do_Not_Email" type="hidden" value="##Do_Not_Email##" /></form>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<p>s <script type="text/javascript">
+$(document).ready(function(){
+    var unsubBox = document.getElementById("chkForbesWomen").checked;
+    
+	$("#unsubme").click(function(evt){
+        evt.preventDefault();
+        unsubBox = document.getElementById("chkForbesWomen").checked;
+        
+        
+        if(unsubBox){
+            document.getElementById('Do_Not_Email').value = "true";
+                 $("#unsub-form").submit();
+           }
+           else{
+                 $("#u-sure").css({"display":"block"});
+               
+           }
+    });
+    
+    $("#chkForbesWomen").change(function(){
+        unsubBox = document.getElementById("chkForbesWomen").checked;
+        if(unsubBox){
+            $("#u-sure").css({"display":"none"});
+        }
+        
+    });
+});
+    
+</script></p>
+</body>
+</html>

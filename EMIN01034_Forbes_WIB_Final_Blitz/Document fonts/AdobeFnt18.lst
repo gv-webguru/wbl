@@ -1,0 +1,160 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamBlack
+FamilyName:Gotham Black
+StyleName:Regular
+MenuName:Gotham Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Gotham Black
+WritingScript:Roman
+OutlineFileName:\Gotham-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:65264
+FileModTime:1260752316
+NameArray:0,Mac,4,Gotham Black
+NameArray:0,Win,1,Gotham Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamBlack-Italic
+FamilyName:Gotham Black
+StyleName:Italic
+MenuName:Gotham Black
+StyleBits:1
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Gotham Black Italic
+WritingScript:Roman
+OutlineFileName:\Gotham-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:63208
+FileModTime:1260752316
+NameArray:0,Mac,4,Gotham Black Italic
+NameArray:0,Win,1,Gotham Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamBold-Italic
+FamilyName:Gotham Bold
+StyleName:Italic
+MenuName:Gotham Bold
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Gotham Bold Italic
+WritingScript:Roman
+OutlineFileName:\Gotham-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:64204
+FileModTime:1260752316
+NameArray:0,Mac,4,Gotham Bold Italic
+NameArray:0,Win,1,Gotham Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamBook
+FamilyName:Gotham Book
+StyleName:Regular
+MenuName:Gotham Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Gotham Book
+WritingScript:Roman
+OutlineFileName:\Gotham-Book.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:66804
+FileModTime:1260752316
+NameArray:0,Mac,4,Gotham Book
+NameArray:0,Win,1,Gotham Book
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamBook-Italic
+FamilyName:Gotham Book
+StyleName:Italic
+MenuName:Gotham Book
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Gotham Book Italic
+WritingScript:Roman
+OutlineFileName:\Gotham-BookItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:64536
+FileModTime:1260752114
+NameArray:0,Mac,4,Gotham Book Italic
+NameArray:0,Win,1,Gotham Book
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothamMedium
+FamilyName:Gotham Medium
+StyleName:Regular
+MenuName:Gotham Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Gotham Medium
+WritingScript:Roman
+OutlineFileName:\Gotham-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:66488
+FileModTime:1260752144
+NameArray:0,Mac,4,Gotham Medium
+NameArray:0,Win,1,Gotham Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:218640
+FileModTime:1409758225
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
